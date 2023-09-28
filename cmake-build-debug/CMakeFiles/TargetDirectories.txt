@@ -1,0 +1,3 @@
+C:/Users/Rosja Dostoyevsjky/Documents/CLion/UNO/cmake-build-debug/CMakeFiles/UNO.dir
+C:/Users/Rosja Dostoyevsjky/Documents/CLion/UNO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Rosja Dostoyevsjky/Documents/CLion/UNO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
