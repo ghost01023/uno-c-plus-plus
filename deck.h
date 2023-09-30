@@ -8,10 +8,10 @@
 class Deck {
 private:
     Card arr[108];
-    int totalCards {40};
+    int totalCards {108};
 public:
     Deck();
-    Card GetCard();
+//    Card GetCard();
     Card GetRandomCard();
     void shuffleFullDeck();
     void getFullDeck();

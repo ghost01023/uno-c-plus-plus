@@ -10,16 +10,18 @@ using namespace std;
 class Card {
 private:
     bool special {};
-    string name {};
+    string value {};
     string color {};
 public:
     Card();
-    Card(bool spec, string name, string color);
-
-    bool isSpecial();
-
-    string getName();
-    
+    Card(bool spec, string type);
+    Card(string color, string value);
+    [[nodiscard]] bool isSpecial() const;
+    bool cardValidity(const Card &card);
+    void removeSpec();
+    string getValue();
     string getColor();
+    void setColor(string newColor);
+    string represent();
 };
 #endif //UNO_CARD_H
